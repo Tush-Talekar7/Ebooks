@@ -1,0 +1,86 @@
+
+body
+{
+	background-color:#c0c0c0;
+}
+
+
+
+.recentbooks
+{
+	width:100%;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	background-color:#c0c0c0;
+	
+	
+}
+.books
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	gap:1rem;
+}
+
+.cardbody
+{
+	width:20%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	border:1px solid black;
+	border-radius:10px;
+	background-color:ghostwhite;
+	padding:1rem;
+	gap:1rem;
+}
+
+.img1
+{
+	width:10rem;
+	height:12.5rem;
+	overflow:hidden;
+	border-radius:6px;
+}
+
+.details p
+{
+	font-size:.9rem;
+	font-weight:500;
+}
+
+#name
+{
+	font-size:1.7rem;
+	color:orange;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+	body
+	{
+	  background-color: #eaf4f4;
+	}
+	
+  .books
+   {
+   margin-top:1rem;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+    background-color: lightblue;
+  }
+  .cardbody
+  {
+  	width:30%;
+  }
+  .img1
+  {
+  	width:13rem;
+  	height:15rem;
+  }
+}
